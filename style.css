@@ -1,0 +1,38 @@
+#control{
+    background-color: wheat;
+    height: 20%;
+    text-align: center;
+
+}
+.btn:hover{
+cursor: pointer;
+}
+.btn:active{
+cursor: default;
+}
+
+
+#arrayContainer {
+    position: relative;
+    height: 100px; 
+    margin-top: 10%;
+    margin-left: 2%;
+    
+}
+
+.arrayElement {
+    position: absolute; 
+    width: 20px; 
+    height: 20px; 
+    line-height: 20px; 
+    text-align: center;
+    margin: 0 5px; 
+    background: whitesmoke; 
+    color: black; 
+    border: 2px solid grey;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: left 1s; 
+}
